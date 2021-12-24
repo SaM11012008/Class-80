@@ -11,7 +11,7 @@ export default class HomeScreen extends Component {
                 <SafeAreaView style={styles.droidSafeArea} />
                 <ImageBackground source={require("../assets/bg_image.png")} style={styles.backgroundImage}>
                     <View style={styles.titleBar}>
-                        <Text> Home Screen </Text>
+                        <Text style={styles.titleText}> Home Screen </Text>
                     </View>
                     <TouchableOpacity style={styles.routeCard} onPress={() => this.props.navigation.navigate("IssLocation")}>
                         <Text style={styles.routeText}> ISS Location </Text>
