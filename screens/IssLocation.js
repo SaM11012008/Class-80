@@ -23,9 +23,6 @@ export default class IssLocationScreen extends Component {
             .then(response => {
                 this.setState({ location: response.data })
             })
-            .catch(error => {
-                alert(error.message)
-            })
 
     }
 
